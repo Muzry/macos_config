@@ -104,7 +104,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:${PATH}"
+PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:${PATH}"
 export PATH
 export HOMEBREW_API_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles/api #brew.idayer.com
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles/bottles #brew.idayer.com
+eval "$(/opt/homebrew/bin/brew shellenv)"
