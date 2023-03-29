@@ -104,8 +104,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:${PATH}"
+PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
 export PATH
 export HOMEBREW_API_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles/api #brew.idayer.com
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles/bottles #brew.idayer.com
 eval "$(/opt/homebrew/bin/brew shellenv)"
+alias sed=gsed
+export PIPENV_VENV_IN_PROJECT=1
+alias pycharm="/Applications/PyCharm\ CE.app/Contents/MacOS/pycharm"
+alias goland="/Applications/GoLand.app/Contents/MacOS/goland"
