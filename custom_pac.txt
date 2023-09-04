@@ -1,0 +1,36 @@
+! Put user rules line by line in this file.
+! See https://adblockplus.org/en/filter-cheatsheet
+
+! 强制走代理示例：
+||google.com
+||*.google.com
+||etherscan.io
+||*github.com
+||*openai.com
+||mirror.xyz
+||*.python.org
+||uniswap.org
+||cn.etherscan.com
+||debank.com
+||discord.com
+||api.coingecko.com
+||linshiyouxiang.net
+||portfolio.metamask.io
+||gas.metaswap.codefi.network
+||*bscscan.com
+||go.dev
+||hub.docker.com
+||gpt.muzry.com
+||claude.ai
+||*notion.site
+
+
+! 强制不走代理示例：
+@@baidu.com
+@@*.baidu.com
+@@chatgpt.muzry.com
+@@imagemagick.org
+@@claudeai.ai
+
+! 修改完成后请关闭、开启VPN一次方可生效。
+
