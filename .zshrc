@@ -113,3 +113,5 @@ alias sed=gsed
 export PIPENV_VENV_IN_PROJECT=1
 alias pycharm="/Applications/PyCharm\ CE.app/Contents/MacOS/pycharm"
 alias goland="/Applications/GoLand.app/Contents/MacOS/goland"
+
+source /Users/muzry/.docker/init-zsh.sh || true # Added by Docker Desktop
